@@ -259,3 +259,30 @@ footer {
     .logo-img { width: 90px; height: 90px; }
     .social-icon { width: 48px; height: 48px; font-size: 1.6rem; }
 }
+.project-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.card-icon-left{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:18px;
+
+    object-fit:cover;
+
+}
+
+.project-content{
+
+    text-align:left;
+
+}
