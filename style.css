@@ -451,3 +451,26 @@ border:1px solid #555;
     }
 
 }
+#meteors{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    z-index:2;
+
+}
+
+.meteor{
+
+    position:fixed;
+
+    height:2px;
+
+    background:linear-gradient(90deg,#fff,transparent);
+
+    transform-origin:left center;
+
+}
