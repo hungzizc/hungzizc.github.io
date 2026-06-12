@@ -29,7 +29,7 @@ function createMeteor(){
 
     meteor.className = "meteor";
 
-    const size = 150 + Math.random() * 250;
+    const size = 80 + Math.random() * 120;
 
     meteor.style.width = size + "px";
 
