@@ -37,7 +37,7 @@ function createMeteor(){
 
     const startY = -100;
 
-    const angle = 135 + (Math.random() * 20 - 10);
+    const angle = -135 + (Math.random() * 20 - 10);
 
     meteor.style.left = startX + "px";
 
