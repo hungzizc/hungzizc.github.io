@@ -37,14 +37,12 @@ function createMeteor(){
 
     const startY = -100;
 
-    const angle = 135 + (Math.random() * 20 - 10);
-
+    const angle = 135;
     meteor.style.left = startX + "px";
 
     meteor.style.top = startY + "px";
 
-    meteor.style.transform = `rotate(${angle}deg) scaleX(-1)`;
-
+    meteor.style.transform = `rotate(135deg)`;
     document.body.appendChild(meteor);
 
     const duration = 1500 + Math.random() * 1500;
