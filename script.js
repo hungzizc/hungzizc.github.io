@@ -49,7 +49,7 @@ function createMeteor(){
 
 {
 
-    transform:`translate(0,0) rotate(45deg)`
+    transform:`translate(0,0) rotate(-45deg)`
 
 },
 
