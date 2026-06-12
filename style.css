@@ -354,3 +354,73 @@ border:1px solid #555;
     transform:scale(1.15);
 
 }
+.stars{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    background-image:
+
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+
+    radial-gradient(2px 2px at 70% 20%, white, transparent),
+
+    radial-gradient(1px 1px at 40% 80%, white, transparent),
+
+    radial-gradient(2px 2px at 85% 60%, white, transparent),
+
+    radial-gradient(1px 1px at 15% 70%, white, transparent);
+
+    opacity:.6;
+
+}
+.shooting-stars::before{
+
+    content:"";
+
+    position:fixed;
+
+    top:20%;
+
+    left:-100px;
+
+    width:150px;
+
+    height:2px;
+
+    background:linear-gradient(90deg,#fff,transparent);
+
+    transform:rotate(-45deg);
+
+    animation:meteor 6s linear infinite;
+
+}
+
+@keyframes meteor{
+
+    0%{
+
+        transform:translateX(0) translateY(0) rotate(-45deg);
+
+        opacity:0;
+
+    }
+
+    10%{
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:translateX(120vw) translateY(60vh) rotate(-45deg);
+
+        opacity:0;
+
+    }
+
+}
