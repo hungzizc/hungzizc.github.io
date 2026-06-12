@@ -75,7 +75,13 @@ function createMeteor(){
 
 function meteorWave(){
 
-    const count = Math.floor(Math.random()*3)+1;
+    const r = Math.random();
+
+let count = 1;
+
+if (r > 0.8) count = 2;     // 20%
+
+if (r > 0.95) count = 3;    // 5%
 
     for(let i=0;i<count;i++){
 
