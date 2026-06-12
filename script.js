@@ -110,16 +110,38 @@ const roles = [
 
 let roleIndex = 0;
 
+let charIndex = 0;
+
 const roleEl = document.getElementById("role");
 
-function changeRole(){
+function typeRole(){
 
-    roleEl.textContent = roles[roleIndex];
+    if(!roleEl) return;
 
-    roleIndex = (roleIndex + 1) % roles.length;
+    if(charIndex < roles[roleIndex].length){
+
+        roleEl.textContent += roles[roleIndex][charIndex];
+
+        charIndex++;
+
+        setTimeout(typeRole, 100);
+
+    }else{
+
+        setTimeout(() => {
+
+            roleEl.textContent = "";
+
+            charIndex = 0;
+
+            roleIndex = (roleIndex + 1) % roles.length;
+
+            typeRole();
+
+        }, 1500);
+
+    }
 
 }
 
-changeRole();
-
-setInterval(changeRole, 2000);
+typeRole();
