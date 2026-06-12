@@ -394,11 +394,11 @@ border:1px solid #555;
 
     position:absolute;
 
-    top:20%;
+    top:-100px;
 
-    left:-150px;
+    left:80%;
 
-    width:180px;
+    width:200px;
 
     height:2px;
 
@@ -412,9 +412,9 @@ border:1px solid #555;
 
     );
 
-    transform:rotate(-35deg);
+    transform:rotate(125deg);
 
-    animation:meteor 5s linear infinite;
+    animation:meteor 4s linear infinite;
 
 }
 
@@ -422,7 +422,7 @@ border:1px solid #555;
 
     0%{
 
-        transform:translateX(0) translateY(0) rotate(-35deg);
+        transform:translate(0,0) rotate(125deg);
 
         opacity:0;
 
@@ -436,7 +436,7 @@ border:1px solid #555;
 
     100%{
 
-        transform:translateX(140vw) translateY(70vh) rotate(-35deg);
+        transform:translate(-500px,700px) rotate(125deg);
 
         opacity:0;
 
