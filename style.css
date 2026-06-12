@@ -73,11 +73,16 @@ h1 {
     font-size: 1rem;
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1.8rem;
-    margin: 2rem 0 2.2rem;
+.social-links a:first-child{
+
+    background:rgba(36,161,222,.15);
+
+}
+
+.social-links a:last-child{
+
+    background:rgba(88,101,242,.15);
+
 }
 
 .social-icon {
