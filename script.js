@@ -43,7 +43,7 @@ function createMeteor(){
 
     meteor.style.top = startY + "px";
 
-    meteor.style.transform = `rotate(${angle}deg)`;
+    meteor.style.transform = `rotate(${angle}deg) scaleX(-1)`;
 
     document.body.appendChild(meteor);
 
