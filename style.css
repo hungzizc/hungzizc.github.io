@@ -494,3 +494,26 @@ border:1px solid #555;
     transform-origin:left center;
 
 }
+.meteor::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:50%;
+
+    width:8px;
+
+    height:8px;
+
+    border-radius:50%;
+
+    background:white;
+
+    transform:translateY(-50%);
+
+    box-shadow:0 0 15px white;
+
+}
