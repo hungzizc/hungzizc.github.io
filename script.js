@@ -37,7 +37,7 @@ function createMeteor(){
 
     const startY = -100;
 
-    const angle = -135;
+    const angle = 135;
     meteor.style.left = startX + "px";
 
     meteor.style.top = startY + "px";
@@ -57,7 +57,7 @@ function createMeteor(){
 
         {
 
-            transform:`translate(-800px,1000px) rotate(${angle}deg)`
+            transform:`translate(800px,1000px) rotate(${angle}deg)`
 
         }
 
