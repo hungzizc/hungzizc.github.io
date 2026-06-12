@@ -57,7 +57,7 @@ function createMeteor(){
 
         {
 
-            transform:`translate(800px,1000px) rotate(${angle}deg)`
+            transform:`translate(-800px,1000px) rotate(${angle}deg)`
 
         }
 
