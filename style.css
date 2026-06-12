@@ -73,15 +73,19 @@ h1 {
     font-size: 1rem;
 }
 
-.social-links a:first-child{
+.fa-telegram-plane{
 
-    background:rgba(36,161,222,.15);
+    color:#24A1DE;
+
+    text-shadow:0 0 10px #24A1DE;
 
 }
 
-.social-links a:last-child{
+.fa-discord{
 
-    background:rgba(88,101,242,.15);
+    color:#5865F2;
+
+    text-shadow:0 0 10px #5865F2;
 
 }
 
