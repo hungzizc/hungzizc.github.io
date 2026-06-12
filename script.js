@@ -47,17 +47,17 @@ function createMeteor(){
 
     meteor.animate([
 
-    {
+{
 
-        transform:`translate(0,0) rotate(-135deg)`
+    transform:`translate(0,0) rotate(45deg)`
 
-    },
+},
 
-    {
+{
 
-        transform:`translate(-800px,1000px) rotate(-135deg)`
+    transform:`translate(-800px,1000px) rotate(45deg)`
 
-    }
+}
 
 ],{
 
