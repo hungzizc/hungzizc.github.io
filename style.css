@@ -473,15 +473,15 @@ border:1px solid #555;
 
     background:linear-gradient(
 
-        90deg,
+    90deg,
 
-        #fff,
+    transparent,
 
-        rgba(255,255,255,.5),
+    rgba(255,255,255,.5),
 
-        transparent
+    #fff
 
-    );
+);
 
     box-shadow:
 
@@ -496,7 +496,9 @@ border:1px solid #555;
 
     position:absolute;
 
-    left:0;
+    right:0;
+
+    left:auto;
 
     top:50%;
 
