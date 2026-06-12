@@ -467,29 +467,27 @@ border:1px solid #555;
 
     position:fixed;
 
-    height:4px;
+    height:2px;
 
     border-radius:999px;
 
-    background: linear-gradient(
+    background:linear-gradient(
 
-    90deg,
+        90deg,
 
-    rgba(255,255,255,1),
+        #fff,
 
-    rgba(180,220,255,.9),
+        rgba(255,255,255,.7),
 
-    rgba(255,255,255,0)
+        transparent
 
-);
+    );
 
     box-shadow:
 
-        0 0 8px #fff,
+        0 0 4px #fff,
 
-        0 0 16px #8ab4ff,
-
-        0 0 24px #8ab4ff;
+        0 0 8px #fff;
 
     transform-origin:left center;
 
@@ -500,22 +498,24 @@ border:1px solid #555;
 
     position:absolute;
 
-    right:auto;
-
     left:0;
 
     top:50%;
 
-    width:8px;
+    width:5px;
 
-    height:8px;
+    height:5px;
 
     border-radius:50%;
 
-    background:white;
+    background:#fff;
 
     transform:translateY(-50%);
 
-    box-shadow:0 0 15px white;
+    box-shadow:
+
+        0 0 8px #fff,
+
+        0 0 15px #fff;
 
 }
