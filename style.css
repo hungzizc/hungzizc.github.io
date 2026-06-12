@@ -9,7 +9,7 @@ body{
 
     min-height: 100vh;
 
-    background: #0f0f14;
+    background: radial-gradient(circle at top, #1a1f4f 0%, #080b1d 40%, #050505 100%);
 
     display: flex;
 
@@ -131,7 +131,7 @@ h1 {
 
 .project-card {
 
-    background: #22222b;
+    background: rgba(25,30,60,.6);
 
     border-radius: 24px;
 
@@ -139,7 +139,7 @@ h1 {
 
     text-align: left;
 
-    border: 1px solid #202020;
+    border: 1px solid rgba(255,255,255,.08);
 
     transition: all .25s ease;
 
