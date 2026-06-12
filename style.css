@@ -175,7 +175,7 @@ width: 100%;
 }
 
 .project-detail, .project-update, .project-platform, .key-line, .timestamp, .platform-bottom {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: #bbbbbb;
     margin: 0.25rem 0;
 }
@@ -287,15 +287,15 @@ footer {
 
     align-items:center;
 
-    gap:10px;
+    gap:12px;
 
 }
 
 .card-icon-left{
 
-    width:55px;
+    width:60px;
 
-    height:55px;
+    height:60px;
 
     border-radius:14px;
 
@@ -314,10 +314,10 @@ footer {
 
     color:#8b7cff;
 
-    font-size:1.3rem;
+    font-size:1.1rem;
 
     font-weight:700;
 
-    margin:25px 0 15px;
+    margin:20px 0 12px;
 
 }
