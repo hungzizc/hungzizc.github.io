@@ -38,6 +38,9 @@ body{
                 0 0 0 1px #2a2a2a;
 
     transition: all 0.2s ease;
+    position:relative;
+
+    z-index:10;
 
 }
 
@@ -362,40 +365,69 @@ border:1px solid #555;
 
     pointer-events:none;
 
+    z-index:1;
+
     background-image:
 
-    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(2px 2px at 20% 30%, #fff, transparent),
 
-    radial-gradient(2px 2px at 70% 20%, white, transparent),
+    radial-gradient(2px 2px at 70% 20%, #fff, transparent),
 
-    radial-gradient(1px 1px at 40% 80%, white, transparent),
+    radial-gradient(1px 1px at 40% 80%, #fff, transparent),
 
-    radial-gradient(2px 2px at 85% 60%, white, transparent),
+    radial-gradient(2px 2px at 85% 60%, #fff, transparent),
 
-    radial-gradient(1px 1px at 15% 70%, white, transparent);
+    radial-gradient(1px 1px at 15% 70%, #fff, transparent),
 
-    opacity:.6;
+    radial-gradient(2px 2px at 60% 90%, #fff, transparent),
+
+    radial-gradient(1px 1px at 90% 10%, #fff, transparent),
+
+    radial-gradient(2px 2px at 35% 50%, #fff, transparent);
+
+    opacity:.7;
 
 }
+
+.shooting-stars{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    z-index:2;
+
+}
+
 .shooting-stars::before{
 
     content:"";
 
-    position:fixed;
+    position:absolute;
 
     top:20%;
 
-    left:-100px;
+    left:-150px;
 
-    width:150px;
+    width:180px;
 
     height:2px;
 
-    background:linear-gradient(90deg,#fff,transparent);
+    background:linear-gradient(
 
-    transform:rotate(-45deg);
+        90deg,
 
-    animation:meteor 6s linear infinite;
+        rgba(255,255,255,1),
+
+        rgba(255,255,255,0)
+
+    );
+
+    transform:rotate(-35deg);
+
+    animation:meteor 5s linear infinite;
 
 }
 
@@ -403,7 +435,7 @@ border:1px solid #555;
 
     0%{
 
-        transform:translateX(0) translateY(0) rotate(-45deg);
+        transform:translateX(0) translateY(0) rotate(-35deg);
 
         opacity:0;
 
@@ -417,7 +449,7 @@ border:1px solid #555;
 
     100%{
 
-        transform:translateX(120vw) translateY(60vh) rotate(-45deg);
+        transform:translateX(140vw) translateY(70vh) rotate(-35deg);
 
         opacity:0;
 
