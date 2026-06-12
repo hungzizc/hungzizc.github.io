@@ -100,7 +100,7 @@ h1 {
     transform: translateY(-3px);
 }
 
-..projects {
+.projects {
 
     display: flex;
 
@@ -147,15 +147,15 @@ width: 100%;
 
 .project-card h3 {
 
-    font-size: 2rem;
+    font-size: 1.2rem;
 
     font-weight: 700;
 
     color: #ffffff;
 
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 
-    letter-spacing: .5px;
+    letter-spacing: 0;
 
 }
 
