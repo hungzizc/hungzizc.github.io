@@ -345,10 +345,12 @@ footer {
 
     font-size:1.3rem;
 
+    transition:.2s;
+
 }
 
 .download-btn:hover{
 
-    opacity:0.8;
+    transform:scale(1.15);
 
 }
