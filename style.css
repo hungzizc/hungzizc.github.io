@@ -73,6 +73,13 @@ h1 {
     font-size: 1rem;
 }
 
+.social-links a{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
 .fa-telegram-plane{
 
     color:#24A1DE;
