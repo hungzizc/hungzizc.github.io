@@ -475,11 +475,11 @@ border:1px solid #555;
 
     90deg,
 
-    #fff,
+    rgba(255,255,255,1),
 
-    #8ab4ff,
+    rgba(180,220,255,.9),
 
-    transparent
+    rgba(255,255,255,0)
 
 );
 
