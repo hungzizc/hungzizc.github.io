@@ -102,7 +102,7 @@ const roles = [
 
     "Developer.",
 
-    "Gold.",
+    "Designer.",
 
     "Gamer."
 
