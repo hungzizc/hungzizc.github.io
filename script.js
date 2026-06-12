@@ -23,3 +23,76 @@
 
     console.log("📢 Telegram: https://t.me/hungzizcvn | Discord: https://discord.gg/XGy5D7A75q");
 })();
+function createMeteor(){
+
+    const meteor = document.createElement("div");
+
+    meteor.className = "meteor";
+
+    const size = 150 + Math.random() * 250;
+
+    meteor.style.width = size + "px";
+
+    const startX = Math.random() * window.innerWidth;
+
+    const startY = -100;
+
+    const angle = 110 + Math.random() * 50;
+
+    meteor.style.left = startX + "px";
+
+    meteor.style.top = startY + "px";
+
+    meteor.style.transform = `rotate(${angle}deg)`;
+
+    document.body.appendChild(meteor);
+
+    const duration = 1500 + Math.random() * 1500;
+
+    meteor.animate([
+
+        {
+
+            transform:`translate(0,0) rotate(${angle}deg)`
+
+        },
+
+        {
+
+            transform:`translate(-800px,1000px) rotate(${angle}deg)`
+
+        }
+
+    ],{
+
+        duration:duration,
+
+        easing:"linear"
+
+    });
+
+    setTimeout(()=>meteor.remove(),duration);
+
+}
+
+function meteorWave(){
+
+    const count = Math.floor(Math.random()*3)+1;
+
+    for(let i=0;i<count;i++){
+
+        setTimeout(createMeteor,i*300);
+
+    }
+
+    setTimeout(
+
+        meteorWave,
+
+        2000 + Math.random()*6000
+
+    );
+
+}
+
+meteorWave();
