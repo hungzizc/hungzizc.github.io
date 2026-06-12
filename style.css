@@ -308,3 +308,16 @@ footer {
     text-align:left;
 
 }
+.section-title{
+
+    text-align:center;
+
+    color:#8b7cff;
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    margin:25px 0 15px;
+
+}
