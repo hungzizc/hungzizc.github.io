@@ -147,15 +147,13 @@ width: 100%;
 
 .project-card h3 {
 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     font-weight: 700;
 
     color: #ffffff;
 
-    margin-bottom: 0.4rem;
-
-    letter-spacing: 0;
+    margin-bottom: 0.3rem;
 
 }
 
@@ -276,15 +274,15 @@ footer {
 
 }
 
-.card-icon-left{
+.card-icon-left {
 
-    width:70px;
+    width: 70px;
 
-    height:70px;
+    height: 70px;
 
-    border-radius:18px;
+    border-radius: 15px;
 
-    object-fit:cover;
+    object-fit: cover;
 
 }
 
