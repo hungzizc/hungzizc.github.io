@@ -337,15 +337,13 @@ footer {
 
     border-radius:50%;
 
-    background:#141414;
+    background:#1f1f1f;
+
+    border:1px solid #444;
 
     color:#8b7cff;
 
     font-size:1.3rem;
-
-    text-decoration:none;
-
-    border:1px solid #2a2a2a;
 
 }
 
