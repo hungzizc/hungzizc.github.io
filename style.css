@@ -500,7 +500,9 @@ border:1px solid #555;
 
     position:absolute;
 
-    left:0;
+    right:0;
+
+    left:auto;
 
     top:50%;
 
