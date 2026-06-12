@@ -98,48 +98,28 @@ if(r > 0.98) count = 3;
 }
 
 meteorWave();
-const texts = [
+const roles = [
 
-    "I'm a developer",
+    "Developer",
 
-    "iOS Modder",
+    "Modder",
 
-    "Welcome to Hungzizc"
+    "Gamer"
 
 ];
 
-let textIndex = 0;
+let roleIndex = 0;
 
-let charIndex = 0;
+const roleEl = document.getElementById("role");
 
-const el = document.querySelector(".tagline");
+function changeRole(){
 
-function typeWriter(){
+    roleEl.textContent = roles[roleIndex];
 
-    if(charIndex < texts[textIndex].length){
-
-        el.textContent += texts[textIndex][charIndex];
-
-        charIndex++;
-
-        setTimeout(typeWriter,100);
-
-    }else{
-
-        setTimeout(()=>{
-
-            el.textContent = "";
-
-            charIndex = 0;
-
-            textIndex = (textIndex + 1) % texts.length;
-
-            typeWriter();
-
-        },2000);
-
-    }
+    roleIndex = (roleIndex + 1) % roles.length;
 
 }
 
-typeWriter();
+changeRole();
+
+setInterval(changeRole, 2000);
