@@ -498,9 +498,9 @@ border:1px solid #555;
 
     position:absolute;
 
-    left:0;
+    left:auto;
 
-    right:auto;
+    right:0;
 
     top:50%;
 
