@@ -321,3 +321,20 @@ footer {
     margin:20px 0 12px;
 
 }
+.download-btn{
+
+    margin-left:auto;
+
+    color:#8b7cff;
+
+    font-size:1.5rem;
+
+    text-decoration:none;
+
+}
+
+.download-btn:hover{
+
+    opacity:0.8;
+
+}
