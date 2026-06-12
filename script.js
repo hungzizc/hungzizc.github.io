@@ -98,3 +98,48 @@ if(r > 0.98) count = 3;
 }
 
 meteorWave();
+const texts = [
+
+    "I'm a developer",
+
+    "iOS Modder",
+
+    "Welcome to Hungzizc"
+
+];
+
+let textIndex = 0;
+
+let charIndex = 0;
+
+const el = document.querySelector(".tagline");
+
+function typeWriter(){
+
+    if(charIndex < texts[textIndex].length){
+
+        el.textContent += texts[textIndex][charIndex];
+
+        charIndex++;
+
+        setTimeout(typeWriter,100);
+
+    }else{
+
+        setTimeout(()=>{
+
+            el.textContent = "";
+
+            charIndex = 0;
+
+            textIndex = (textIndex + 1) % texts.length;
+
+            typeWriter();
+
+        },2000);
+
+    }
+
+}
+
+typeWriter();
