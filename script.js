@@ -77,9 +77,9 @@ function meteorWave(){
 
 let count = 1;
 
-if (r > 0.8) count = 2;     // 20%
+if(r > 0.9) count = 2;
 
-if (r > 0.95) count = 3;    // 5%
+if(r > 0.98) count = 3;
 
     for(let i=0;i<count;i++){
 
