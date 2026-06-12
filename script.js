@@ -41,34 +41,32 @@ function createMeteor(){
     meteor.style.left = startX + "px";
 
     meteor.style.top = startY + "px";
-
-    meteor.style.transform = `rotate(135deg)`;
     document.body.appendChild(meteor);
 
     const duration = 1500 + Math.random() * 1500;
 
     meteor.animate([
 
-        {
+    {
 
-            transform:`translate(0,0) rotate(${angle}deg)`
+        transform:`translate(0,0) rotate(-135deg)`
 
-        },
+    },
 
-        {
+    {
 
-            transform:`translate(-800px,1000px) rotate(${angle}deg)`
+        transform:`translate(-800px,1000px) rotate(-135deg)`
 
-        }
+    }
 
-    ],{
+],{
 
-        duration:duration,
+    duration:duration,
 
-        easing:"linear"
+    easing:"linear"
 
-    });
-
+});
+        
     setTimeout(()=>meteor.remove(),duration);
 
 }
