@@ -477,7 +477,7 @@ border:1px solid #555;
 
         #fff,
 
-        rgba(255,255,255,.7),
+        rgba(255,255,255,.5),
 
         transparent
 
@@ -485,19 +485,35 @@ border:1px solid #555;
 
     box-shadow:
 
-        0 0 4px #fff,
-
-        0 0 8px #fff;
+        0 0 3px #fff;
 
     transform-origin:left center;
 
 }
 .meteor::before{
 
-    background:red !important;
+    content:"";
 
-    width:12px;
+    position:absolute;
 
-    height:12px;
+    left:0;
+
+    top:50%;
+
+    width:4px;
+
+    height:4px;
+
+    border-radius:50%;
+
+    background:#fff;
+
+    transform:translateY(-50%);
+
+    box-shadow:
+
+        0 0 6px #fff,
+
+        0 0 12px #fff;
 
 }
