@@ -392,15 +392,15 @@ border:1px solid #555;
 
     content:"";
 
-    position:absolute;
+    position:fixed;
 
-    top:-100px;
+    top:-200px;
 
-    left:80%;
+    right:-100px;
 
-    width:200px;
+    width:350px;
 
-    height:2px;
+    height:3px;
 
     background:linear-gradient(
 
@@ -412,9 +412,9 @@ border:1px solid #555;
 
     );
 
-    transform:rotate(125deg);
+    transform:rotate(135deg);
 
-    animation:meteor 4s linear infinite;
+    animation:meteor 3s linear infinite;
 
 }
 
@@ -422,7 +422,11 @@ border:1px solid #555;
 
     0%{
 
-        transform:translate(0,0) rotate(125deg);
+        transform:
+
+        translate(0,0)
+
+        rotate(135deg);
 
         opacity:0;
 
@@ -436,7 +440,11 @@ border:1px solid #555;
 
     100%{
 
-        transform:translate(-500px,700px) rotate(125deg);
+        transform:
+
+        translate(-900px,900px)
+
+        rotate(135deg);
 
         opacity:0;
 
