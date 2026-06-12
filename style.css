@@ -494,30 +494,10 @@ border:1px solid #555;
 }
 .meteor::before{
 
-    content:"";
+    background:red !important;
 
-    position:absolute;
+    width:12px;
 
-    left:0;
-
-    right:auto;
-
-    top:50%;
-
-    width:5px;
-
-    height:5px;
-
-    border-radius:50%;
-
-    background:#fff;
-
-    transform:translateY(-50%);
-
-    box-shadow:
-
-        0 0 8px #fff,
-
-        0 0 15px #fff;
+    height:12px;
 
 }
