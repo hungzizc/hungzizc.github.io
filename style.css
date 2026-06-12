@@ -467,14 +467,30 @@ border:1px solid #555;
 
     position:fixed;
 
-    height:3px;
+    height:4px;
 
-    background:linear-gradient(90deg,#fff,transparent);
+    border-radius:999px;
+
+    background:linear-gradient(
+
+        90deg,
+
+        rgba(255,255,255,1),
+
+        rgba(180,220,255,.9),
+
+        rgba(255,255,255,0)
+
+    );
+
+    box-shadow:
+
+        0 0 8px #fff,
+
+        0 0 16px #8ab4ff,
+
+        0 0 24px #8ab4ff;
 
     transform-origin:left center;
-
-    z-index:9999;
-
-    box-shadow:0 0 10px #fff;
 
 }
