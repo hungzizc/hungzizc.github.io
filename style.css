@@ -467,10 +467,14 @@ border:1px solid #555;
 
     position:fixed;
 
-    height:2px;
+    height:3px;
 
     background:linear-gradient(90deg,#fff,transparent);
 
     transform-origin:left center;
+
+    z-index:9999;
+
+    box-shadow:0 0 10px #fff;
 
 }
