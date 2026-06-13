@@ -87,23 +87,21 @@ h1 {
 
 .social-links a{
 
-    width:55px;
+    width:60px;
 
-    height:55px;
+    height:60px;
 
-    border-radius:50%;
+    border-radius:16px;
 
-    display:flex;
+    background:#2f3f8f;
 
-    align-items:center;
+    border:1px solid rgba(255,255,255,.15);
 
-    justify-content:center;
+    box-shadow:
 
-    background:rgba(255,255,255,.08);
+        0 8px 20px rgba(0,0,0,.3),
 
-    border:1px solid rgba(255,255,255,.1);
-
-    text-decoration:none;
+        inset 0 1px 1px rgba(255,255,255,.15);
 
 }
 
@@ -575,3 +573,16 @@ border:1px solid #555;
     font-weight:600;
 
 }
+.fa-telegram-plane{
+
+    color:#6fd3ff;
+
+}
+
+.fa-discord{
+
+    color:#9a8cff;
+
+}
+
+
