@@ -236,27 +236,33 @@ width: 100%;
 
 .project-platform{
 
-    display:inline-block;
-
     background:#1a1a1a;
 
-    color:#b78cff;
-    
-    width:auto;
+    color:#fff;
 
-    padding:5px 14px;
+}
 
-    border-radius:999px;
+/* iOS */
 
-    border:1px solid rgba(183,140,255,.2);
+.project-platform:first-of-type{
 
-    box-shadow:
+    background:linear-gradient(135deg,#ff4fd8,#8a6cff);
 
-        inset 0 1px 1px rgba(255,255,255,.08),
+    color:#fff;
 
-        0 0 8px rgba(183,140,255,.2);
+    box-shadow:0 0 12px rgba(138,108,255,.4);
 
-    text-shadow:0 0 6px rgba(183,140,255,.5);
+}
+
+/* Get Key */
+
+.project-platform:nth-of-type(2){
+
+    background:linear-gradient(135deg,#ffb347,#ff7b00);
+
+    color:#fff;
+
+    box-shadow:0 0 12px rgba(255,123,0,.4);
 
 }
 
