@@ -623,9 +623,31 @@ footer {
 }
 #role{
 
-    color:#8b7cff;
-
     font-weight:600;
+
+    background: linear-gradient(
+
+        90deg,
+
+        #8b5cf6,
+
+        #a855f7,
+
+        #ec4899,
+
+        #8b5cf6
+
+    );
+
+    background-size:300% 100%;
+
+    -webkit-background-clip:text;
+
+    background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+    animation: roleGradient 4s linear infinite;
 
 }
 .fa-telegram-plane{
@@ -790,5 +812,20 @@ footer {
 .project-card:hover::before{
 
     left:150%;
+
+}
+@keyframes roleGradient{
+
+    from{
+
+        background-position:0% 0%;
+
+    }
+
+    to{
+
+        background-position:300% 0%;
+
+    }
 
 }
