@@ -648,3 +648,16 @@ footer {
     transform:scale(.85);
 
 }
+.preview{
+
+    background:linear-gradient(
+
+        180deg,
+
+        #4e8cff 0%,
+
+        #3d5cff 100%
+
+    );
+
+}
