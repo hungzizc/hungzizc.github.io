@@ -136,6 +136,17 @@ h1 {
     font-size:26px;
 
 }
+.fa-tiktok{
+
+    color:#fff;
+
+    text-shadow:
+
+        -2px 0 #25F4EE,
+
+        2px 0 #FE2C55;
+
+}
 
 .social-icon {
     display: inline-flex;
