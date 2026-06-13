@@ -395,6 +395,8 @@ footer {
     font-weight:700;
 
     margin:20px 0 12px;
+    
+    text-shadow: 0 0 15px rgba(139,92,246,.4);
 
 }
 .download-btn{
