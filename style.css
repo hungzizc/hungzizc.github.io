@@ -73,9 +73,9 @@ body{
 
     position:absolute;
 
-    width:180px;
+    width:145px;
 
-    height:180px;
+    height:145px;
 
     border-radius:50%;
 
@@ -91,7 +91,7 @@ body{
 
     );
 
-    filter:blur(15px);
+    filter:blur(2px);
 
     opacity:.8;
 
