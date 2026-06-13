@@ -236,43 +236,35 @@ width: 100%;
 
 .project-platform{
 
-    display:inline-flex;
+    display:inline-block;
 
-    align-items:center;
-
-    gap:4px;
-
-    padding:4px 14px;
+    padding:3px 12px;
 
     border-radius:999px;
-
-    color:#fff;
 
     font-size:13px;
 
     font-weight:600;
 
+    color:#f2d1ff;
+
     background:linear-gradient(
 
-        135deg,
+        180deg,
 
-        #ff6bd6 0%,
+        #b15cff 0%,
 
-        #b16cff 45%,
-
-        #6b7cff 100%
+        #7b4dff 100%
 
     );
 
-    border:1px solid rgba(255,255,255,.15);
+    border:1px solid rgba(255,255,255,.12);
 
     box-shadow:
 
-        0 0 10px rgba(177,108,255,.35),
+        0 0 6px rgba(177,92,255,.25),
 
-        inset 0 1px 1px rgba(255,255,255,.2);
-
-}
+        inset 0 1px 1px rgba(255,255,255,.15);
 
 .key-line {
     margin-top: 0.6rem;
