@@ -620,4 +620,14 @@ footer {
     background:rgba(255,255,255,.06);
 
 }
+.card-divider{
 
+    border:none;
+
+    height:1px;
+
+    background:rgba(255,255,255,.08);
+
+    margin:15px 0;
+
+}
