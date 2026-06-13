@@ -503,7 +503,11 @@ footer {
     margin:20px 0 12px;
     
     text-shadow: 0 0 15px rgba(139,92,246,.4);
+      text-shadow:
 
+    0 0 10px rgba(139,92,255,.4),
+
+    0 0 20px rgba(139,92,255,.2);
 }
 .download-btn{
 
