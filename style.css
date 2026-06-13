@@ -902,3 +902,62 @@ footer {
     transform: translateY(0);
 
 }
+.avatar::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:165px;
+
+    height:165px;
+
+    border-radius:50%;
+
+    background:conic-gradient(
+
+        from 0deg,
+
+        #00d4ff,
+
+        #8b5cf6,
+
+        #ff00aa,
+
+        #00d4ff
+
+    );
+
+    animation:spinRing 6s linear infinite;
+
+    filter:blur(6px);
+
+    opacity:.7;
+
+    z-index:0;
+
+}
+
+.logo-img{
+
+    position:relative;
+
+    z-index:1;
+
+}
+
+@keyframes spinRing{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
