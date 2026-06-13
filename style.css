@@ -18,6 +18,18 @@ body{
     justify-content: center;
 
     padding: 0;
+    
+    background:
+
+radial-gradient(
+
+    circle at top,
+
+    rgba(0,212,255,.12),
+
+    transparent 40%
+
+);
 
 }
 
