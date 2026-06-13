@@ -138,14 +138,10 @@ h1 {
 }
 .fa-tiktok{
 
-    color:#fff;
-
-    text-shadow:
-
-        -2px 0 #25F4EE,
-
-        2px 0 #FE2C55;
-
+    color:#ffffff;
+    
+    font-size:26px;
+    
 }
 
 .social-icon {
