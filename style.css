@@ -236,33 +236,41 @@ width: 100%;
 
 .project-platform{
 
-    background:#1a1a1a;
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:4px;
+
+    padding:4px 14px;
+
+    border-radius:999px;
 
     color:#fff;
 
-}
+    font-size:13px;
 
-/* iOS */
+    font-weight:600;
 
-.project-platform:first-of-type{
+    background:linear-gradient(
 
-    background:linear-gradient(135deg,#ff4fd8,#8a6cff);
+        135deg,
 
-    color:#fff;
+        #ff6bd6 0%,
 
-    box-shadow:0 0 12px rgba(138,108,255,.4);
+        #b16cff 45%,
 
-}
+        #6b7cff 100%
 
-/* Get Key */
+    );
 
-.project-platform:nth-of-type(2){
+    border:1px solid rgba(255,255,255,.15);
 
-    background:linear-gradient(135deg,#ffb347,#ff7b00);
+    box-shadow:
 
-    color:#fff;
+        0 0 10px rgba(177,108,255,.35),
 
-    box-shadow:0 0 12px rgba(255,123,0,.4);
+        inset 0 1px 1px rgba(255,255,255,.2);
 
 }
 
