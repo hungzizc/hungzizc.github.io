@@ -100,11 +100,13 @@ if(r > 0.98) count = 3;
 meteorWave();
 const roles = [
 
-    "Developer.",
+    "Developer 💻",
 
-    "Designer.",
+    "Designer 🎨",
 
-    "Gamer."
+    "Gamer 🎮",
+
+    "Creator 🚀"
 
 ];
 
