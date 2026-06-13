@@ -54,9 +54,15 @@ body{
 }
 
 .avatar {
+
     display: flex;
+
     justify-content: center;
+
     margin-bottom: 1.2rem;
+
+    position: relative;
+
 }
 
 .logo-img {
