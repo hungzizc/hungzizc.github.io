@@ -384,9 +384,11 @@ footer {
 
     border-radius:50%;
 
-    background:#2a2a35;
+    background:transparent !important;
 
-border:1px solid #555;
+    border:none !important;
+    
+    box-shadow:none !important;
 
     color:#8b7cff;
 
