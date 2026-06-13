@@ -193,17 +193,40 @@ h1 {
 }
 
 .social-icon.telegram:hover {
-    background: #ffffff;
-    color: #000000;
-    transform: translateY(-3px);
+
+    transform: translateY(-5px) scale(1.08);
+
+    box-shadow:
+
+        0 0 20px rgba(56,189,248,.5),
+
+        0 0 40px rgba(56,189,248,.25);
+
 }
 
 .social-icon.discord:hover {
-    background: #ffffff;
-    color: #000000;
-    transform: translateY(-3px);
+
+    transform: translateY(-5px) scale(1.08);
+
+    box-shadow:
+
+        0 0 20px rgba(139,124,255,.5),
+
+        0 0 40px rgba(139,124,255,.25);
+
 }
 
+.social-icon.tiktok:hover {
+
+    transform: translateY(-5px) scale(1.08);
+
+    box-shadow:
+
+        0 0 20px rgba(255,255,255,.35),
+
+        0 0 40px rgba(255,255,255,.15);
+
+}
 .projects {
 
     display: flex;
