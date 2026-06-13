@@ -640,7 +640,7 @@ footer {
     height:1px;
 
     background:rgba(255,255,255,.08);
-
+        
     margin:15px 0;
 
 }
@@ -664,5 +664,46 @@ footer {
 }
 .rainbow-name{
 
-    color:red !important;
+    background: linear-gradient(
+
+        90deg,
+
+        #00d4ff,
+
+        #7c3aed,
+
+        #ff0080,
+
+        #00d4ff
+
+    );
+
+    background-size: 300% 100%;
+
+    color: transparent;
+
+    -webkit-text-fill-color: transparent;
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    animation: gradientMove 5s linear infinite;
+
+}
+
+@keyframes gradientMove{
+
+    from{
+
+        background-position: 0% 0%;
+
     }
+
+    to{
+
+        background-position: 300% 0%;
+
+    }
+
+}
