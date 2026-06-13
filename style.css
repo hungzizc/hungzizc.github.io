@@ -236,21 +236,41 @@ width: 100%;
 
 .project-platform{
 
-    display:inline-block;
+    display:inline-flex;
 
-    margin-top:10px;
+    align-items:center;
 
-    padding:6px 14px;
+    gap:4px;
 
-    background:#1a1a1a;
+    padding:4px 14px;
 
-    color:#d6d6d6;
+    border-radius:999px;
 
-    border-radius:20px;
+    color:#fff;
 
     font-size:13px;
 
     font-weight:600;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #ff6bd6 0%,
+
+        #b16cff 45%,
+
+        #6b7cff 100%
+
+    );
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:
+
+        0 0 10px rgba(177,108,255,.35),
+
+        inset 0 1px 1px rgba(255,255,255,.2);
 
 }
 
