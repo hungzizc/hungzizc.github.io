@@ -161,18 +161,35 @@ h1 {
 }
 
 .social-icon {
+
     display: inline-flex;
+
     align-items: center;
+
     justify-content: center;
+
     width: 56px;
+
     height: 56px;
-    background: #1e1e1e;
+
     border-radius: 50%;
-    font-size: 2rem;
-    color: #cccccc;
-    transition: 0.2s;
+
+    background: rgba(255,255,255,.06);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,.12);
+
+    transition: all .3s ease;
+
     text-decoration: none;
-    border: 1px solid #333333;
+
+    box-shadow:
+
+        0 4px 15px rgba(0,0,0,.25),
+
+        inset 0 1px 1px rgba(255,255,255,.08);
+
 }
 
 .social-icon.telegram:hover {
