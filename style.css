@@ -238,23 +238,9 @@ width: 100%;
 
     background:#1a1a1a;
 
-    color:transparent;
+    color:#9d7cff; /* fallback */
 
-    background-image:linear-gradient(
-
-        135deg,
-
-        #ff6bd6,
-
-        #8c6cff
-
-    );
-
-    -webkit-background-clip:text;
-
-    background-clip:text;
-
-    font-weight:600;
+    text-shadow:0 0 8px rgba(157,124,255,.4);
 
 }
 
