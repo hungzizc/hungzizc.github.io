@@ -313,7 +313,45 @@
     border-radius:20px;
 
 } 
+.banner-wrap{
 
+    position:relative;
+
+}
+
+.banner-wrap::after{
+
+    content:'';
+
+    position:absolute;
+
+    left:0;
+
+    right:0;
+
+    bottom:0;
+
+    height:180px;
+
+    background:linear-gradient(
+
+        to bottom,
+
+        rgba(5,10,40,0),
+
+        rgba(5,10,40,.3) 30%,
+
+        rgba(5,10,40,.8) 70%,
+
+        rgba(5,10,40,1)
+
+    );
+
+    border-radius:0 0 28px 28px;
+
+    pointer-events:none;
+
+}
 </style>
 
 </head>
