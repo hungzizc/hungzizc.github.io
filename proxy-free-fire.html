@@ -261,7 +261,11 @@
 
     overflow-x:auto;
 
-    padding-bottom:10px;
+    overflow-y:hidden;
+
+    white-space:nowrap;
+
+    scroll-snap-type:x mandatory;
 
     scrollbar-width:none;
 
@@ -275,19 +279,17 @@
 
 .preview-item{
 
-    width:240px;
+    flex:0 0 auto;
 
-    height:140px;
+    width:280px;
 
-    object-fit:cover;
+    height:160px;
 
     border-radius:18px;
 
-    flex-shrink:0;
+    object-fit:cover;
 
-    border:1px solid rgba(255,255,255,.08);
-
-    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    scroll-snap-align:start;
 
 }
 </style>
@@ -356,7 +358,7 @@ Proxy tối ưu Free Fire cho iOS. Hỗ trợ cấu hình nhanh và dễ sử d�
 
 </a>
 
-<h2 class="preview-title">Hình ảnh</h2>
+<h2 class="preview-title">📸Preview</h2>
 
 <div class="preview-slider">
 
@@ -365,6 +367,15 @@ Proxy tối ưu Free Fire cho iOS. Hỗ trợ cấu hình nhanh và dễ sử d�
     <img src="AFCB099B-4EE0-452E-896D-9752257048EE.png" class="preview-item">
 
     <img src="123FDC2A-D5A5-4AD1-94FA-0B73BEFBA54E.png" class="preview-item">
+
+</div>
+<div class="slider-dots">
+
+    <span class="active"></span>
+
+    <span></span>
+
+    <span></span>
 
 </div>
 
