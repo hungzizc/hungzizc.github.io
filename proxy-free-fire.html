@@ -261,7 +261,19 @@
 
     overflow-x:auto;
 
+    overflow-y:hidden;
+
+    padding:0 10px;
+
     scroll-snap-type:x mandatory;
+
+    -webkit-overflow-scrolling:touch;
+
+}
+
+.preview-slider::-webkit-scrollbar{
+
+    display:none;
 
 }
 
@@ -275,15 +287,9 @@
 
     object-fit:cover;
 
-    border-radius:16px;
+    border-radius:18px;
 
-    scroll-snap-align:start;
-
-}
-
-.preview-slider::-webkit-scrollbar{
-
-    display:none;
+    scroll-snap-align:center;
 
 }
 
