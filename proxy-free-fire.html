@@ -257,15 +257,27 @@
 
     display:flex;
 
-    gap:10px;
+    gap:12px;
 
     overflow-x:auto;
 
     scroll-snap-type:x mandatory;
 
-    -webkit-overflow-scrolling:touch;
+}
 
-    padding-bottom:5px;
+.preview-item{
+
+    flex:0 0 85%;
+
+    min-width:85%;
+
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:16px;
+
+    scroll-snap-align:start;
 
 }
 
@@ -275,21 +287,6 @@
 
 }
 
-.preview-item{
-
-    flex:0 0 30%;
-
-    height:120px;
-
-    aspect-ratio:16/9;
-
-    object-fit:contain;
-
-    border-radius:14px;
-
-    background:#0d1029;
-
-}
 </style>
 
 </head>
