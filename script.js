@@ -170,3 +170,26 @@ document.querySelectorAll(".fade-up").forEach(el => {
     observer.observe(el);
 
 })
+function openModal(){
+
+    document.getElementById("downloadModal").style.display="flex";
+
+}
+
+function closeModal(){
+
+    document.getElementById("downloadModal").style.display="none";
+
+}
+
+window.onclick=function(e){
+
+    const modal=document.getElementById("downloadModal");
+
+    if(e.target===modal){
+
+        closeModal();
+
+    }
+
+}
