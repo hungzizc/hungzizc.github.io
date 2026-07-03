@@ -1077,23 +1077,29 @@ footer {
 
     position:absolute;
 
-    top:15px;
+    top:14px;
 
-    right:18px;
+    right:16px;
 
-    font-size:24px;
+    font-size:30px;
 
-    color:#8c8ca8;
+    font-weight:300;
+
+    color:rgba(255,255,255,.55);
 
     cursor:pointer;
 
     transition:.2s;
 
+    line-height:1;
+
 }
 
 .close-x:hover{
 
-    color:white;
+    color:#fff;
+
+    transform:scale(1.08);
 
 }
 
@@ -1103,7 +1109,9 @@ footer {
 
     text-align:center;
 
-    font-size:30px;
+    font-size:27px;
+    
+    font-weight:700;
 
     margin:8px 0 22px;
 
@@ -1127,7 +1135,7 @@ footer {
 
     border-radius:18px;
 
-    padding:14px 16px;
+    padding:12px 16px;
 
     margin-bottom:14px;
 
@@ -1147,9 +1155,9 @@ footer {
 
 .version-icon{
 
-    width:48px;
+    width:44px;
 
-    height:48px;
+    height:44px;
 
     border-radius:15px;
 
@@ -1187,9 +1195,9 @@ footer {
 
 .version-btn i:last-child{
 
-    color:#9b63ff;
+    color:#b56cff;
 
-    font-size:18px;
+    font-size:22px;
 
 }
 
@@ -1205,9 +1213,11 @@ footer {
 
     margin-top:8px;
 
-    background:rgba(255,255,255,.06);
+    background:rgba(139,92,255,.12);
 
-    color:white;
+    border:1px solid rgba(139,92,255,.18);
+
+    color:#fff;
 
     font-size:18px;
 
@@ -1219,7 +1229,7 @@ footer {
 
 .close-btn:hover{
 
-    background:rgba(255,255,255,.12);
+    background:rgba(139,92,255,.22);
 
 }
 .modal .version-btn{
