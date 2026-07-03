@@ -1222,3 +1222,46 @@ footer {
     background:rgba(255,255,255,.12);
 
 }
+.modal .version-btn{
+
+    display:flex !important;
+
+    align-items:center;
+
+    gap:15px;
+
+    width:100%;
+
+    text-decoration:none;
+
+    color:#fff;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:14px 16px;
+
+    margin-bottom:14px;
+
+}
+
+.modal .version-icon{
+
+    flex-shrink:0;
+
+}
+
+.modal .version-info{
+
+    flex:1;
+
+}
+
+.modal .close-btn{
+
+    width:100%;
+
+}
