@@ -1464,31 +1464,13 @@ footer {
 
     inset:-8px;
 
-    animation:ringRotate 1.8s linear infinite;
+    width:146px;
 
-}
+    height:146px;
 
-.ring-light::before{
+    animation:ringRotate 2s linear infinite;
 
-    content:"";
-
-    position:absolute;
-
-    width:42px;
-
-    height:4px;
-
-    background:white;
-
-    border-radius:20px;
-
-    left:50%;
-
-    top:0;
-
-    transform:translateX(-50%);
-
-    box-shadow:0 0 10px #fff;
+    pointer-events:none;
 
 }
 
