@@ -1441,6 +1441,30 @@ footer {
         width:100%;
 
     }
+    
+}
+.avatar-box{
+
+    position:relative;
+
+    width:130px;
+
+    height:130px;
+
+    margin:auto;
 
 }
 
+.avatar-ring{
+
+    position:absolute;
+
+    inset:0;
+
+    border:4px solid #8c4cff;
+
+    border-radius:50%;
+
+    box-shadow:0 0 25px #8c4cff;
+
+}
