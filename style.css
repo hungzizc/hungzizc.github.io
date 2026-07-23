@@ -1468,3 +1468,52 @@ footer {
     box-shadow:0 0 25px #8c4cff;
 
 }
+.ring-light{
+
+    position:absolute;
+
+    inset:-8px;
+
+    animation:ringRotate 1.8s linear infinite;
+
+}
+
+.ring-light::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:42px;
+
+    height:4px;
+
+    background:white;
+
+    border-radius:20px;
+
+    left:50%;
+
+    top:0;
+
+    transform:translateX(-50%);
+
+    box-shadow:0 0 10px #fff;
+
+}
+
+@keyframes ringRotate{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
